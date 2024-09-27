@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../../../../assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-bold";
+    src: url(../../../../assets/fonts/Poppins-ExtraBold.ttf);
+}
+
+
+
+.age-calculator-container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 20px 20px 150px 20px;
+    width: 700px;
+    margin: 50px auto;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-left: 40px;
+    padding-top: 60px;
+  }
+  
+  .input-group {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
+    color: hsl(0, 1%, 44%);
+    font-family: "Poppins-bold";
+    letter-spacing: 2px;
+  }
+  
+  input {
+    width: 150px;
+    padding: 10px;
+    font-size: 32px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: "Poppins-bold";
+  }
+  
+  input:focus {
+    border-color: #7f56da;
+    outline: none;
+  }
+  
+  .calculate-btn {
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .calculate-btn:hover {
+    background-color: #000;
+  }
+  
+  .result {
+    margin-top: 0px;
+  }
+  
+  .result p {
+    font-size: 78px;
+    font-weight: bold;
+    color: #000;
+    font-family: "Poppins-bold";
+  }
+  
+  .result p span {
+    font-size: 78px;
+    color: #7f56da;
+    font-family: "Poppins-bold";
+  }
+  
+  p{
+    margin: auto;
+  }
+
+  hr{
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 2em 0;
+    padding: 0;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .convert{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+  }
